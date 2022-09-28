@@ -1,0 +1,140 @@
+.task{
+    color: #00A5EC;
+}
+
+.first{
+    width: 360px; 
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 30px #7B7B7B29;
+    opacity: 1;
+    
+}
+
+.fbox{
+    top: 140px;
+    left: 12px;
+    width: 336px;
+    height: 360px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    margin: 10px;
+}
+
+body{
+    top: 0px;
+    left: 0px;
+    width: 360px;
+    height: 1282px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+}
+.parent{
+   
+    width: 360px; 
+    height: 1282px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: inline-block;
+}
+/* i{
+    width: 100px;
+    height: 100px;
+    
+} */
+.first1{
+    position: absolute;
+    color: #00A5EC;
+    top: 80px;
+    left: 100px;
+  background-color:  #00A5EC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 10px;
+    /* display: inline-block; */
+}
+a{
+    text-decoration: none;
+}
+.fbox1{
+    
+width: 103px;
+height: 21px;
+text-align: left;
+font: normal normal medium 18px/21px Inter;
+letter-spacing: 0px;
+color: #00A5EC;
+opacity: 1;
+}
+.check1{
+    padding: 5px;
+    color: #424242;
+    /* margin-left: 20px; */
+    text-decoration: line-through;
+    /* background-color: #eee; */
+    /* background-color: #424242; */
+    padding: 10px;
+}
+.check2{
+padding: 5px;
+color: #424242;
+padding: 10px;
+}  
+
+.first,.parent{
+    filter: blur(1px);
+    background: #dcdbdb 0% 0% no-repeat padding-box;
+    opacity: .5;
+    z-index: -10;
+}
+
+
+
+
+.sar{
+    top: 175px;
+    left: 10px;
+    width: 300px;
+    height: 250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #fffbfb29;
+    border: 2px solid #bebcbc;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+  
+} 
+ .sar1{
+    position: absolute;
+    left: 200px;
+    top: 30px;
+    background-color: white;
+  
+}
+
+.inp1{
+    width: 200px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: #aea7a7;
+   
+}
+.inp2{
+     margin-left: 100px; 
+    font: normal normal normal 18px/21px Inter;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 100px;
+    height: 50px;
+    background: #00A5EC 0% 0% no-repeat padding-box;
+} 
+@media (min-width:400px) and  (max-width:500px) {
+
+    body{
+        background-color: aqua;
+    }
+}
